@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F4F4F9;
+}
+
+/* Schedule Container Styling */
+.schedule-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Table Styling */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.schedule-table th {
+    background-color: #42A5F5;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.schedule-table td[colspan="3"] {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Heading Styling */
+.schedule-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #E3F2FD; /* Light blue background */
+}
+
+/* Wrapper Styling */
+.wrapper {
+    width: 400px;
+    padding: 30px 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Header */
+.wrapper h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Box Styling */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 15px 20px 15px 50px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus {
+    border-color: #42A5F5;
+    box-shadow: 0 0 5px rgba(66, 165, 245, 0.5);
+}
+
+/* Icons inside input fields */
+.input-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #42A5F5;
+    font-size: 20px;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #42A5F5; /* Light blue button */
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #1E88E5; /* Darker blue on hover */
+}
+
+/* Register Link Styling */
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #42A5F5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
